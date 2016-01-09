@@ -564,8 +564,6 @@ Plugin.prototype.configBoard = function(data) {
     "optionsForm": OPTIONS_FORM
   });
 
-  console.log(MESSAGE_SCHEMA);
-
 }else{
   setTimeout(function () {
     self.emit('config');
