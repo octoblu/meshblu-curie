@@ -1,7 +1,7 @@
 {
   "name": "meshblu-curie",
   "repository": "octoblu/meshblu-curie",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "main": "connector.js",
   "scripts": {
     "preinstall": "node -e \"try{require('./skip-install.js')}catch(e){}\"",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "ble-serial": "^0.3.0",
+    "firmata": "^0.8.0",
     "debug": "^2.2.0",
     "johnny-five": "*",
     "lodash": "^3.10.1",
